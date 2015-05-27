@@ -30,7 +30,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 }
-
+/**
+ * Method name: <#方法名#>
+ * Description: <#方法描述#>
+ * Parameter: <#参数1#>
+ * Parameter: <#参数2#>
+ */
 //Get请求
 - (void)mothRequestUrl:(NSString *)url {
     RequestController *request = [[RequestController alloc] init];
