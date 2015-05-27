@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		991FFF081B0DB404002DFB05 /* baseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 991FFF071B0DB404002DFB05 /* baseViewController.m */; };
+		991FFF0C1B0DB516002DFB05 /* RegistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 991FFF0A1B0DB516002DFB05 /* RegistViewController.m */; };
+		991FFF0D1B0DB516002DFB05 /* RegistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 991FFF0B1B0DB516002DFB05 /* RegistViewController.xib */; };
+		991FFF131B0DBE0F002DFB05 /* NextRegistController.m in Sources */ = {isa = PBXBuildFile; fileRef = 991FFF111B0DBE0F002DFB05 /* NextRegistController.m */; };
+		991FFF141B0DBE0F002DFB05 /* NextRegistController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 991FFF121B0DBE0F002DFB05 /* NextRegistController.xib */; };
 		BEF472191B06542E003F4382 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF472181B06542E003F4382 /* main.m */; };
 		BEF4721C1B06542E003F4382 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF4721B1B06542E003F4382 /* AppDelegate.m */; };
 		BEF4721F1B06542E003F4382 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF4721E1B06542E003F4382 /* ViewController.m */; };
@@ -14,6 +19,9 @@
 		BEF472241B06542E003F4382 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF472231B06542E003F4382 /* Images.xcassets */; };
 		BEF472271B06542E003F4382 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEF472251B06542E003F4382 /* LaunchScreen.xib */; };
 		BEF472331B06542E003F4382 /* myHttpClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF472321B06542E003F4382 /* myHttpClientTests.m */; };
+		BEF472451B065503003F4382 /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF472401B065503003F4382 /* HttpClient.swift */; };
+		BEF472461B065503003F4382 /* RequestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF472421B065503003F4382 /* RequestController.swift */; };
+		BEF472471B065503003F4382 /* ResponseController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF472441B065503003F4382 /* ResponseController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +35,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		991FFF061B0DB404002DFB05 /* baseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baseViewController.h; sourceTree = "<group>"; };
+		991FFF071B0DB404002DFB05 /* baseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = baseViewController.m; sourceTree = "<group>"; };
+		991FFF091B0DB516002DFB05 /* RegistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistViewController.h; sourceTree = "<group>"; };
+		991FFF0A1B0DB516002DFB05 /* RegistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistViewController.m; sourceTree = "<group>"; };
+		991FFF0B1B0DB516002DFB05 /* RegistViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegistViewController.xib; sourceTree = "<group>"; };
+		991FFF101B0DBE0F002DFB05 /* NextRegistController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextRegistController.h; sourceTree = "<group>"; };
+		991FFF111B0DBE0F002DFB05 /* NextRegistController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextRegistController.m; sourceTree = "<group>"; };
+		991FFF121B0DBE0F002DFB05 /* NextRegistController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NextRegistController.xib; sourceTree = "<group>"; };
 		BEF472131B06542E003F4382 /* myHttpClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myHttpClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF472171B06542E003F4382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEF472181B06542E003F4382 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +56,12 @@
 		BEF4722C1B06542E003F4382 /* myHttpClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myHttpClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF472311B06542E003F4382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEF472321B06542E003F4382 /* myHttpClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myHttpClientTests.m; sourceTree = "<group>"; };
+		BEF4723C1B065449003F4382 /* myHttpClient-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "myHttpClient-Bridging-Header.h"; sourceTree = "<group>"; };
+		BEF472401B065503003F4382 /* HttpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
+		BEF472411B065503003F4382 /* MyHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyHeaders.h; sourceTree = "<group>"; };
+		BEF472421B065503003F4382 /* RequestController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestController.swift; sourceTree = "<group>"; };
+		BEF472431B065503003F4382 /* ResponseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseController.h; sourceTree = "<group>"; };
+		BEF472441B065503003F4382 /* ResponseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +82,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		991FFF0E1B0DB7FE002DFB05 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				991FFF091B0DB516002DFB05 /* RegistViewController.h */,
+				991FFF0A1B0DB516002DFB05 /* RegistViewController.m */,
+				BEF4721D1B06542E003F4382 /* ViewController.h */,
+				BEF4721E1B06542E003F4382 /* ViewController.m */,
+				991FFF101B0DBE0F002DFB05 /* NextRegistController.h */,
+				991FFF111B0DBE0F002DFB05 /* NextRegistController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		991FFF0F1B0DB806002DFB05 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BEF472201B06542E003F4382 /* Main.storyboard */,
+				991FFF0B1B0DB516002DFB05 /* RegistViewController.xib */,
+				991FFF121B0DBE0F002DFB05 /* NextRegistController.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		BEF4720A1B06542E003F4382 = {
 			isa = PBXGroup;
 			children = (
@@ -81,14 +126,17 @@
 		BEF472151B06542E003F4382 /* myHttpClient */ = {
 			isa = PBXGroup;
 			children = (
+				BEF4723F1B065503003F4382 /* HttpClient */,
+				991FFF0F1B0DB806002DFB05 /* Views */,
+				991FFF0E1B0DB7FE002DFB05 /* Controllers */,
 				BEF4721A1B06542E003F4382 /* AppDelegate.h */,
 				BEF4721B1B06542E003F4382 /* AppDelegate.m */,
-				BEF4721D1B06542E003F4382 /* ViewController.h */,
-				BEF4721E1B06542E003F4382 /* ViewController.m */,
-				BEF472201B06542E003F4382 /* Main.storyboard */,
+				991FFF061B0DB404002DFB05 /* baseViewController.h */,
+				991FFF071B0DB404002DFB05 /* baseViewController.m */,
 				BEF472231B06542E003F4382 /* Images.xcassets */,
 				BEF472251B06542E003F4382 /* LaunchScreen.xib */,
 				BEF472161B06542E003F4382 /* Supporting Files */,
+				BEF4723C1B065449003F4382 /* myHttpClient-Bridging-Header.h */,
 			);
 			path = myHttpClient;
 			sourceTree = "<group>";
@@ -117,6 +165,18 @@
 				BEF472311B06542E003F4382 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEF4723F1B065503003F4382 /* HttpClient */ = {
+			isa = PBXGroup;
+			children = (
+				BEF472401B065503003F4382 /* HttpClient.swift */,
+				BEF472421B065503003F4382 /* RequestController.swift */,
+				BEF472411B065503003F4382 /* MyHeaders.h */,
+				BEF472431B065503003F4382 /* ResponseController.h */,
+				BEF472441B065503003F4382 /* ResponseController.m */,
+			);
+			path = HttpClient;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +261,8 @@
 			files = (
 				BEF472221B06542E003F4382 /* Main.storyboard in Resources */,
 				BEF472271B06542E003F4382 /* LaunchScreen.xib in Resources */,
+				991FFF0D1B0DB516002DFB05 /* RegistViewController.xib in Resources */,
+				991FFF141B0DBE0F002DFB05 /* NextRegistController.xib in Resources */,
 				BEF472241B06542E003F4382 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,8 +281,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEF472451B065503003F4382 /* HttpClient.swift in Sources */,
+				991FFF081B0DB404002DFB05 /* baseViewController.m in Sources */,
 				BEF4721F1B06542E003F4382 /* ViewController.m in Sources */,
+				BEF472471B065503003F4382 /* ResponseController.m in Sources */,
+				991FFF131B0DBE0F002DFB05 /* NextRegistController.m in Sources */,
 				BEF4721C1B06542E003F4382 /* AppDelegate.m in Sources */,
+				BEF472461B065503003F4382 /* RequestController.swift in Sources */,
+				991FFF0C1B0DB516002DFB05 /* RegistViewController.m in Sources */,
 				BEF472191B06542E003F4382 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,9 +411,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = myHttpClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "myHttpClient/myHttpClient-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -353,9 +426,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = myHttpClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "myHttpClient/myHttpClient-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -372,6 +449,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = myHttpClientTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myHttpClient.app/myHttpClient";
@@ -387,6 +465,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = myHttpClientTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myHttpClient.app/myHttpClient";
@@ -412,6 +491,7 @@
 				BEF472381B06542E003F4382 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BEF472391B06542E003F4382 /* Build configuration list for PBXNativeTarget "myHttpClientTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +500,7 @@
 				BEF4723B1B06542E003F4382 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
