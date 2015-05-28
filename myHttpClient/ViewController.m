@@ -47,6 +47,12 @@
     
 }
 
+/**
+ * Method name: loginAction
+ * Description: 点击登录
+ * Parameter: 无
+ * Parameter: 无
+ */
 - (IBAction)loginAction:(id)sender {
     [_username resignFirstResponder];
     [_password resignFirstResponder];
